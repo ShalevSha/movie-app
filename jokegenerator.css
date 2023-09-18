@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+}
+
+.container {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: medium;
+  font-weight: 200;
+}
+.container #joke {
+  margin: 20px 0;
+  font-size: x-large;
+  text-align: center;
+}
+
+.container button {
+  background-color: cyan;
+  font-size: medium;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
